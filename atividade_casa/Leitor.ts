@@ -8,7 +8,7 @@ export class Leitor implements Leitor {
         this.id = id;
         this.nome = nome;
         this.telefone = telefone;
-        this.qtdeLivros = 3;
+        this.qtdeLivros = 0;
     }
 
 }
