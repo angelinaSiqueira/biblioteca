@@ -1,17 +1,17 @@
-export class Livro implements Livro {
+export class Livro{
     id: number;
     titulo: string;
     autor: string;
-    editora: string;
-    anoPublicacao: number;
+    isbn: string;
     status: string;
+    idLeitor: number
 
-    constructor(id: number, titulo: string, autor: string, editora: string, anoPublicacao: number, status:string) {
+    constructor(id: number, titulo: string, autor: string, isbn: string) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
-        this.editora = editora;
-        this.anoPublicacao = anoPublicacao;
-        this.status = status;
+        this.isbn = isbn;
+        this.status = "disponivel";
+        this.idLeitor = 0;
     }
 }

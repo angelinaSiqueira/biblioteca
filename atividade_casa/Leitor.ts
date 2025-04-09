@@ -1,11 +1,11 @@
-export class Leitor implements Leitor {
-    id: number;
+export class Leitor{
+    idLeitor: number;
     nome: string;
     telefone: string;
     qtdeLivros: number;
 
-    constructor(id: number, nome: string, telefone: string, qtdeLivros: number) {
-        this.id = id;
+    constructor(idLeitor: number, nome: string, telefone: string) {
+        this.idLeitor = idLeitor;
         this.nome = nome;
         this.telefone = telefone;
         this.qtdeLivros = 0;
