@@ -1,4 +1,5 @@
-import { Biblioteca } from "./biblioteca";
+
+import { Biblioteca } from "./Biblioteca";
 import { Leitor, Livro } from "./Livro_Leitor";
 
 const biblioteca = new Biblioteca();
