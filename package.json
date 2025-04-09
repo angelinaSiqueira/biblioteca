@@ -1,0 +1,20 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Desenvolver uma aplicação simples de gerenciamento de uma **biblioteca**. O foco aqui é praticar os conceitos fundamentais de **Programação Orientada a Objetos (POO)** com **TypeScript**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielReblin/biblioteca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielReblin/biblioteca/issues"
+  },
+  "homepage": "https://github.com/DanielReblin/biblioteca#readme"
+}
