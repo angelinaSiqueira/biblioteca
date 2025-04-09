@@ -1,4 +1,3 @@
-
 import { Biblioteca } from "./Biblioteca";
 import { Leitor, Livro } from "./Livro_Leitor";
 
@@ -31,8 +30,8 @@ console.log(biblioteca.emprestarLivro(1, "ISBN003")); // Limite atingido
 // Devolver livro
 console.log(biblioteca.devolverLivro(1, "ISBN001")); // Devolve Dom Casmurro
 
-// Emprestar de novo após devolução
+
 console.log(biblioteca.emprestarLivro(2, "ISBN001")); // Carlos pega Dom Casmurro
 
-// Listar livros disponíveis após operações
+
 biblioteca.listarLivrosDisponiveis();
