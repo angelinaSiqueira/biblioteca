@@ -20,14 +20,14 @@ biblioteca.cadastrarLivro(livro3);
 // Listar livros disponíveis
 biblioteca.listarLivrosDisponiveis();
 
-// Emprestar livros
+
 console.log(biblioteca.emprestarLivro(1, "ISBN001")); // Ana pega Dom Casmurro
 console.log(biblioteca.emprestarLivro(1, "ISBN002")); // Ana pega O Cortiço
 console.log(biblioteca.emprestarLivro(1, "ISBN003")); // Ana pega Memórias
 console.log(biblioteca.emprestarLivro(1, "ISBN001")); // Livro já emprestado
 console.log(biblioteca.emprestarLivro(1, "ISBN003")); // Limite atingido
 
-// Devolver livro
+
 console.log(biblioteca.devolverLivro(1, "ISBN001")); // Devolve Dom Casmurro
 
 
