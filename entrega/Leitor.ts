@@ -1,19 +1,19 @@
-import { Ileitor } from "./Ileitor";
+import { ILeitor } from "./ILeitor";
 
-export class Leitor implements Ileitor{
-    nome_completo: string;
-    id: number;
-    telefone: number;
-    maximo: number;
+export class Leitor implements ILeitor {
+  public livrosEmprestados: string[] = [];
+  public maxLivrosEmprestados: number;
 
-    constructor(nome_completo: string,
-        id: number,
-        telefone: number,
-        maximo: number){
-            this.nome_completo=nome_completo;
-            this.id=id;
-            this.telefone=telefone;
-            this.maximo=maximo;
-        }
+  constructor(
+    public id: number,
+    public nome: string,
+    public telefone: string,
+    maxLivrosEmprestados: number = 3
+  ) {
+    this.maxLivrosEmprestados = maxLivrosEmprestados;
+  }
 
+  podePegarEmprestado(): boolean {
+    return this.livrosEmprestados.length < this.maxLivrosEmprestados;
+  }
 }

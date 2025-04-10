@@ -1,6 +1,7 @@
-export interface Ileitor{
-nome_completo:string;
-id:number;
-telefone:number;
-maximo:number;
-}
+export interface ILeitor {
+    id: number;
+    nome: string;
+    telefone: string;
+    maxLivrosEmprestados?: number;
+  }
+  

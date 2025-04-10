@@ -1,6 +1,7 @@
-export interface Ilivro{
-    titulo:string;
-    autor:string;
-    isbn:number;
-    status:"disponível" | "indisponível";
-}
+export interface ILivro {
+    titulo: string;
+    autor: string;
+    isbn: string;
+    status: "disponível" | "emprestado";
+  }
+  
