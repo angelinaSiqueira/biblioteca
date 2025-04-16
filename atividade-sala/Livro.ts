@@ -1,15 +1,10 @@
 import { ILivro } from "./ILivro";
 
-export class Livro implements ILivro{
-    titulo: string;
-    autor: string;
-    isbn: number;
-    status: string;
-
-    constructor(titulo: string, autor: string, isbn: number, status: string){
-        this.titulo = titulo;
-        this.autor = autor;
-        this.isbn = isbn;
-        this.status = status;
-    }
-}
+export class Livro implements ILivro {
+    constructor(
+      public titulo: string,
+      public autor: string,
+      public isbn: string,
+      public status: 'Disponível' | 'Emprestado' = 'Disponível'
+    ) {}
+  }
